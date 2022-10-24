@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+textarea{
+  width: 400px;
+  height: 200px;
+  background-color: rgb(236, 25, 25);
+   /* animation-name: example;
+  animation-duration: 10s; 
+  animation-iteration-count: 2; */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:crimson;
+  position: relative;
+  animation: mymove 5s infinite;
+  /* animation-delay: 5s; */
+  border: 5px solid rgb(0, 55, 255);
+ border-style: dotted;
+ text-align: center;
+
+}
+textarea::placeholder{
+    color: darkblue;
+}
+@keyframes mymove {
+ 0% {top: 0px;}
+ 50% {top: 300px;}
+ 100%{top: 0px;}
+
+  0%   {background-color: Violet; color: aquamarine; border: 5px solid blue; border-style: dotted;}
+  10% {background-color: rgb(140, 0, 255); border: 5px solid rgb(0, 255, 149); border-style: dotted;}
+   20%  {background-color: rgb(203, 23, 188); border: 5px solid rgb(255, 234, 0);border-style: dotted;}
+  30% {background-color: rgb(210, 30, 159); border: 5px solid rgb(38, 255, 0);border-style: dotted;}
+  40% {background-color: rgb(216, 34, 34); border: 5px solid rgb(0, 110, 255);border-style: dotted;}
+  50%   {background-color: rgb(53, 226, 212); color: blueviolet; font-size: 50px; border: 5px solid rgb(242, 0, 255);border-style: dotted;}
+  60% {background-color: rgb(0, 255, 34); border: 5px solid rgb(93, 0, 255);border-style: dotted;}
+  70%  {background-color: rgb(23, 86, 203); border: 5px solid rgb(255, 157, 0);border-style: dotted;}
+  80%  {background-color: rgb(193, 190, 29); border: 5px solid rgb(132, 0, 255);border-style: dotted;}
+  90% {background-color: rgb(255, 0, 85); border: 5px solid rgb(0, 255, 157);border-style: dotted;}
+  100%   {background-color: rgb(0, 132, 255); color: bisque; border: 5px solid rgb(255, 0, 0);border-style: dotted;}
+
+ }
+ body{
+    background-image: url(https://img.freepik.com/free-vector/happy-diwali-celebration-firework-colorful-style_1017-21570.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ a{
+    font-size: x-large;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: cursive;
+    position: relative;
+    animation: diwali 2s infinite;
+ }
+ @keyframes diwali{
+    from {left: 0px;}
+    to {left: 200px;}
+ }
+</style>
+</head>
+<body>
+<center>
+    <textarea name="" id="" cols="30" rows="10" placeholder="HAPPY DIWALI"></textarea>
+    <a href="diwali.html">CLICK HERE</a>
+
+</center>
+</body>
+</html>
